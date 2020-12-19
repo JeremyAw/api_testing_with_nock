@@ -1,0 +1,22 @@
+{
+  "name": "api_testing_with_nock",
+  "version": "1.0.0",
+  "description": "Simple backend server set up with express and mongoDB to do API testing with nock, mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyAw/api_testing_with_nock.git"
+  },
+  "author": "Jeremy Aw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeremyAw/api_testing_with_nock/issues"
+  },
+  "homepage": "https://github.com/JeremyAw/api_testing_with_nock#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
