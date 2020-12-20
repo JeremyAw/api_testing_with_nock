@@ -4,7 +4,7 @@
   "description": "Simple backend server set up with express and mongoDB to do API testing with nock, mocha and chai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/JeremyAw/api_testing_with_nock#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.5"
   }
 }
