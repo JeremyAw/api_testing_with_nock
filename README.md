@@ -1,8 +1,8 @@
 ## **API Testing with Nock**
 
-This repository is used to try out API testing using `nock`, `mocha`, `chai` and `chai-http`. 
+This repository is used to try out API testing using [`nock`](https://github.com/nock/nock), [`mocha`](https://mochajs.org/), [`chai`](https://www.chaijs.com/) and [`chai-http`](https://www.chaijs.com/plugins/chai-http/). 
 
-The test server will be set up using `express`.
+The test server will be set up using [`express`](http://expressjs.com/).
 
 ## **Setting Up**
 
@@ -28,10 +28,10 @@ The test server will be set up using `express`.
 
 ### **Install testing dependencies**
 
-- Install nock, mocha, chai, chai-http\
+- Install `nock`, `mocha`, `chai` and `chai-http`\
 `npm install --save-dev nock mocha chai chai-http`
 
-- Modify test script in package.json
+- Modify test script in `package.json`
 ```
 "scripts": {
     "test": "mocha"
