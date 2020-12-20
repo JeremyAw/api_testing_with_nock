@@ -1,10 +1,13 @@
 ## **API Testing with Nock**
 
-This repository is used to try out API testing using `nock`, `mocha` and `chai`. 
+This repository is used to try out API testing using `nock`, `mocha`, `chai` and `chai-http`. 
 
-The test server will be set up using `Express` and `MongoDB`.
+The test server will be set up using `express`.
 
 ## **Setting Up**
+
+- Just run `npm install` if you're cloning this repository along with the `package.json` file
+- The instructions below are for starting from scratch
 
 ### **Initialize the repository**
 
@@ -19,10 +22,21 @@ Create package.json file\
 
 Create .gitignore file\
 `touch .gitignore`
-### **Create Express server**
 
 Install express\
 `npm install express`
 
-Create express server\
-`touch index.js`
+### **Install testing dependencies**
+
+Install nock, mocha, chai, chai-http\
+`npm install --save-dev nock mocha chai chai-http`
+
+Modify test script in package.json
+```
+"scripts": {
+    "test": "mocha"
+  },
+```
+
+## Mocking HTTP requests using nock for API testing
+
