@@ -58,7 +58,7 @@ describe('GET /route/to/be/tested', () => {
 ```
 - Run `npm test` to execute the tests without a live server (duh, that's the whole point)
 
-## **Recording fixtures**
+## **Recording fixtures using Nock Back**
 
 - Nocks can become cumbersome to write, especially when they return different results with each call
 
@@ -99,3 +99,7 @@ nockBack('myFixture.json', async (nockDone) => {
   })
 })
 ```
+
+## **Recording fixtures using Nock Recorder**
+
+- to be done soon
