@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "https://cat-fact.herokuapp.com:443",
+        "method": "GET",
+        "path": "/facts/random",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": {
+                "verified": true,
+                "sentCount": 1
+            },
+            "type": "cat",
+            "deleted": false,
+            "_id": "5a456246255f4b0021f54c04",
+            "updatedAt": "2020-08-23T20:20:01.611Z",
+            "createdAt": "2018-01-25T21:20:05.232Z",
+            "user": "5a9ac18c7478810ea6c06381",
+            "text": "A cat can die from essential oils",
+            "source": "user",
+            "__v": 0,
+            "used": false
+        },
+        "rawHeaders": [
+            "Server",
+            "Cowboy",
+            "Connection",
+            "close",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "296",
+            "Etag",
+            "W/\"128-DvjfpTWuYXBM6y1ZZUe7S15emuA\"",
+            "Set-Cookie",
+            "connect.sid=s%3AOYPtoH7ssZ3qbwQbDY7F7wa8GAp-8R77.fOBrqEQkEmiJVqVLMJELkKS2AXMYNsIZYYUi%2FdDqlMA; Path=/; HttpOnly",
+            "Date",
+            "Wed, 06 Jan 2021 05:25:10 GMT",
+            "Via",
+            "1.1 vegur"
+        ],
+        "responseIsBinary": false
+    }
+]
